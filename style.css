@@ -6,7 +6,7 @@ Author URI: https://profiles.wordpress.org/hackernewbie/
 Description: A simple and responsive wordpress theme. Initially started as a bootstrap theme based on W3C.
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Tags: black, brown, gray, tan, grey, grayscale, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready, black-and-white
 Text Domain: Barak Responsive
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -24,7 +24,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 /*Zoom the featured images on hover */
 .feature:hover{
-   border-color: #f1f1f1;							/*Give unique border-colors to each one of the 3 items later */
+   border-color: #f1f1f1;	/*Give unique border-colors to each one of the 3 items later */
    -webkit-transform: scale(1.05);
    -moz-transform: scale(1.05);
    -ms-transform: scale(1.05);
@@ -59,6 +59,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 .bg-first-section h3 {color: #fff;}
 .bg-first-section p {font-style: italic;}
+
 /* Remove rounded borders from list */
 .list-group-item:first-child {
     border-top-right-radius: 0;
@@ -108,7 +109,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .modal-header, .modal-body {
     padding: 40px 50px;
 }
-/***Reference URL: http://www.w3schools.com/bootstrap/bootstrap_theme_band.asp*/;
 /************************If Modal Dialog required************************/
 
 /*Toggle Tabs*/
@@ -167,6 +167,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .dropdown-menu li a:hover {
     background-color: red !important;
 }
+
 footer {
     background-color: #2d2d30;
     color: #f5f5f5;
@@ -181,6 +182,7 @@ footer a:hover {
     color: #777;
     text-decoration: none;
 }
+
 body {
     font: 400 15px/1.8 Lato, sans-serif;
     color: #777;
